@@ -12,7 +12,7 @@ class Dog
   end
   
    def self.clear_all
-     self.@@all
+     self.clear = Dog.new
   end 
 
   #def self.print_all(name)
