@@ -15,12 +15,15 @@ class Dog
      # self.name
 
     #end 
+    def print_all()
+    array.each do |array|
+    puts "#{yield counter} #{array}"
     
-  def print_all(name)
-    print_all.each do |self|
-      puts "#{name}"
-    end
-  end
+  #def print_all(name)
+   # print_all.each do |self|
+    #  puts "#{name}"
+    #nd
+  #end
   
   
   
