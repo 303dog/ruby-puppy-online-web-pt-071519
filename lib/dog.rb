@@ -17,8 +17,7 @@ class Dog
   end 
 
   def self.print_all
-      self.all.each do
-    print all
+      puts p1.instance_variable_get(:@name)
     end
   end
     
