@@ -8,7 +8,7 @@ class Dog
    # @@all << self
   end
   
-  def save(all)
+  def save#(all)
     @@all << self
   end
   
