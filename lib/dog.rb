@@ -11,15 +11,15 @@ class Dog
     @@all 
   end
   
-   #def self.clear_all(name)
-     # self.name
-    #end 
+   def self.clear_all(name)
+     self.name
+  end 
 
-    def self.print_all(name)
-      self.each do |array|
-    puts "#{array}"
-      end
-    end
+  #def self.print_all(name)
+      #self.each do |array|
+    #puts "#{array}"
+     # end
+    #end
     
   #def print_all(name)
    # print_all.each do |self|
