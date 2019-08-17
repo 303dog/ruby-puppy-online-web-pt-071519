@@ -12,7 +12,7 @@ class Dog
   end
   
    def self.clear_all
-     self.name
+     self.name = []
   end 
 
   #def self.print_all(name)
