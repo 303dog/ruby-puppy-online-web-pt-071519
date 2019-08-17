@@ -12,7 +12,7 @@ class Dog
   end
   
    def self.clear_all
-     self.name.@@all
+     self.@@all
   end 
 
   #def self.print_all(name)
