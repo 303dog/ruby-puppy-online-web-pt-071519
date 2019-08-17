@@ -18,7 +18,7 @@ class Dog
 
   def self.print_all
       puts all.instance_variable_get(:@name)
-    end
+    
   end
     
   #def print_all(name)
