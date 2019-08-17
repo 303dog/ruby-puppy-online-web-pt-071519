@@ -19,7 +19,7 @@ class Dog
   
   def self.clear_all(name)
       self.name
-binding.pry
+
     end  
   
 end
